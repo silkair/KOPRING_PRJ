@@ -29,6 +29,18 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     runtimeOnly("com.h2database:h2")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    // https://mvnrepository.com/artifact/io.github.oshai/kotlin-logging-jvm
+    implementation("io.github.oshai:kotlin-logging-jvm:7.0.7")
+
+    // https://mvnrepository.com/artifact/io.mockk/mockk
+    testImplementation("io.mockk:mockk:1.14.2")
+
+    // https://mvnrepository.com/artifact/io.kotest/kotest-assertions-core-jvm
+    testImplementation("io.kotest:kotest-assertions-core-jvm:5.9.1")
+
+// https://mvnrepository.com/artifact/io.kotest/kotest-runner-junit5-jvm
+    testImplementation("io.kotest:kotest-runner-junit5-jvm:5.9.1")
 }
 
 kotlin {
